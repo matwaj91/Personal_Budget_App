@@ -10,3 +10,42 @@ h1{
     text-shadow: 1px 1px 2px rgb(26, 24, 25);
     letter-spacing: 2px;
 }
+
+.container{
+    margin-top: 130px;
+}
+
+#email:focus,
+#password:focus,
+#firstName:focus{
+    -webkit-box-shadow: 0px 0px 10px 2px rgba(204, 204, 204, 1);
+    -moz-box-shadow: 0px 0px 10px 2px rgba(204, 204, 204, 1);
+    box-shadow: 0px 0px 10px 2px rgba(204, 204, 204, 1);
+    border: 2px solid #85bb65;
+}
+
+.logInButton{
+    background-color: #85bb65;
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+
+.logInButton:hover{
+    background-color: #74aa54;
+}
+
+.newAccountButton{
+    background-color: black;
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+
+.newAccountButton:hover{
+    background-color: #222;
+}
+
+@media(min-width:576px){
+    .blockquote{
+        display: none;
+    }
+}
