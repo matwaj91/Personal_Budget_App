@@ -86,3 +86,86 @@
             </div>
         </div>
     </header>
+    <div class="container mt-2 p-2 h5 mx-auto">
+        <form action="#nowhere"
+            class="bg-white rounded-lg opacity-75 shadow-lg p-3 mx-auto col-10 col-sm-9 col-md-7 col-lg-6 col-xl-5 col-xxl-4 ">
+            <div class="mb-2">
+                <h1 class="display-6 text-center p-0">Expense</h1>
+            </div>
+            <div class="form-group mx-auto">
+                <label for="amount" class="font-weight-normal text-black">Amount</label>
+                <input type="number" min="0" class="form-control font-weight-bold text-dark border-4" id="amount"
+                    name="amount" aria-describedby="amount" required>
+            </div>
+            <div class="form-group mx-auto">
+                <label for="date" class="font-weight-normal text-black">Date</label>
+                <input type="date" class="form-control font-weight-bold text-dark border-4" id="date"
+                    aria-describedby="date" required>
+            </div>
+            <div class=" form-group mx-auto mb-2">
+                <label for="cash" class=" font-weight-normal text-black">Payment method:</label>
+                <div>
+                    <label for="cash" class="font-weight-bold h6">Cash</label>
+                    <input type="radio" id="cash" name="paymentMethod" value="cash" checked>
+                </div>
+                <div>
+                    <label for="debitCard" class="font-weight-bold h6">Debit Card</label>
+                    <input type="radio" id="debitCard" name="paymentMethod" value="debitCard">
+                </div>
+                <div>
+                    <label for="creditCard" class="font-weight-bold h6">Credit Card</label>
+                    <input type="radio" id="creditCard" name="paymentMethod" value="creditCard">
+                </div>
+            </div>
+            <div class="form-group mx-auto">
+                <label for="date" class="font-weight-normal text-black">Category</label>
+                <select class="form-control text-dark border-4" id="category" size="4" name="category"
+                    aria-describedby="category" required>
+                    <option value="food" class="font-weight-bold">Food</option>
+                    <option value="apartment" class="font-weight-bold">Apartment</option>
+                    <option value="transport" class="font-weight-bold">Transport</option>
+                    <option value="telecommunication" class="font-weight-bold">Telecommunication</option>
+                    <option value="healthCare" class="font-weight-bold">Health Care</option>
+                    <option value="outfit" class="font-weight-bold">Outfit</option>
+                    <option value="hygiene" class="font-weight-bold">Hygiene</option>
+                    <option value="children" class="font-weight-bold">Children</option>
+                    <option value="entertainment" class="font-weight-bold">Entertainment</option>
+                    <option value="trip" class="font-weight-bold">Trip</option>
+                    <option value="training" class="font-weight-bold">Training</option>
+                    <option value="book" class="font-weight-bold">Books</option>
+                    <option value="savings" class="font-weight-bold">Savings</option>
+                    <option value="retirement" class="font-weight-bold">Retirement</option>
+                    <option value="debts" class="font-weight-bold">Debts</option>
+                    <option value="donation" class="font-weight-bold">Donation</option>
+                    <option value="otherExpenses" class="font-weight-bold">Other expenses</option>
+                </select>
+            </div>
+            <div class="form-group mx-auto">
+                <label for="comment" class="font-weight-normal text-black">Comment</label>
+                <textarea id="comment" name="comment" placeholder="Type something here. . . " rows="2"
+                    class="form-control font-weight-bold text-black border-4" required></textarea>
+            </div>
+            <button type="submit" class="addButton my-3 p-1 d-block text-white btn btn-block mx-auto">Add
+            </button>
+            <a href="Personal_Budget_INCOME.html"
+                class="text-decoration-none cancelButton my-1 p-1 d-block text-white btn btn-block mx-auto">Cancel</a>
+        </form>
+    </div>
+    <footer>
+        <div class="footer">
+            <p class="h5 text-center">All rights reserved&copy; 2022 Thank you for your visit!</p>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
