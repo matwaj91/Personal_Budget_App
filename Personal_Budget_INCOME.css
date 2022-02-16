@@ -87,3 +87,7 @@ p{
 .cancelButton:hover{
     background-color: #222;
 }
+
+.footer{
+    margin-top: 200px;
+}
