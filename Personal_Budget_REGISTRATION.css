@@ -4,3 +4,9 @@ body{
     background-size: cover;
     font-family: 'Lato', sans-serif;
 }
+
+h1{
+    font-weight: 500;
+    text-shadow: 1px 1px 2px rgb(26, 24, 25);
+    letter-spacing: 2px;
+}
